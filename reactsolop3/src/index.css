@@ -1,0 +1,79 @@
+body, html {
+  padding: 0;
+  margin: 0;
+  color: #293264;
+  font-family: 'Karla', sans-serif;
+  background-color: #F5F7FB;
+}
+
+.Intro--msg {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-top: 190px;
+}
+
+.Not--done,
+.Intro--msg--display,
+.Question--box,
+.Tally {
+  display: none;
+}
+
+.Not--done--display,
+.Question--box--display,
+.Tally--display {
+  display: inline-block;
+}
+
+.App {
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+button {
+  margin: 4px;
+  border-radius: 10px;
+  border: 1px solid #D6DBF5;
+  padding: 5px 10px;
+}
+
+.Start--btn, .Check--btn {
+  background-color: #293264;
+  border: 1px solid #293264;
+  color: #F5F7FB;
+  padding: 12px;
+}
+
+.Question--box {
+  margin-top: 20px;
+}
+
+.Start--btn {
+  border-radius: 10px;
+  padding: 10px;
+  width: 193px;
+}
+
+.App--footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Not--done {
+  color: red;
+  margin-left: 17%;
+}
+
+.Start--btn:active, 
+.Check--btn:active {
+  background-color: #4a548c;
+}
+
+.Answer--btn:hover,
+.Start--btn:hover, 
+.Check--btn:hover {
+  box-shadow: 1px 1px 5px #4a548c;
+}
